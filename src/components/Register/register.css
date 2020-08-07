@@ -1,0 +1,36 @@
+div .Register-h1 {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+form#Register {
+    width: 100%;
+    max-width: 680;
+    margin: 0px auto 0;
+    padding: 30px;
+    background: #FFF;
+    border: 1px solid #ddd;
+    display: flex;
+    flex-direction: column;
+}
+
+form#Register input {
+    margin-bottom: 15px;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    padding: 0 20px;
+    font-size: 15px
+}
+
+form#Register button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    border: 0px;
+    background: #272727;
+    color: #FFF;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
